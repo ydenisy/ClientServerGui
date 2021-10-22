@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="420.0" prefWidth="312.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.StudentFormController">
+   <children>
+      <Label id="lblNumber" fx:id="lblNumber" layoutX="28.0" layoutY="64.0" text=" Res Number:" />
+      <Label id="lblPhone" fx:id="lblPhone" layoutX="31.0" layoutY="102.0" text="Phone:" />
+      <TextField id="txtNumber" fx:id="txtNumber" layoutX="113.0" layoutY="60.0" prefHeight="25.0" prefWidth="79.0" />
+      <TextField id="txtPhone" fx:id="txtPhone" layoutX="112.0" layoutY="98.0" prefHeight="25.0" prefWidth="79.0" />
+      <Label id="lblBranch" fx:id="lblBranch" layoutX="30.0" layoutY="141.0" text="Branch:" />
+      <TextField id="txtBranch" fx:id="txtBranch" layoutX="112.0" layoutY="137.0" prefHeight="25.0" prefWidth="79.0" />
+      <Label id="lblVisitors" fx:id="lblVisitors" layoutX="30.0" layoutY="180.0" text="Visitors:" />
+      <TextField id="txtVisitors" fx:id="txtVisitors" layoutX="113.0" layoutY="176.0" prefHeight="25.0" prefWidth="79.0" />
+      <Label id="lblTime" fx:id="lblTime" layoutX="30.0" layoutY="217.0" text="Time:" />
+      <TextField id="txtTime" fx:id="txtTime" layoutX="113.0" layoutY="213.0" prefHeight="25.0" prefWidth="79.0" />
+      <Label id="lblArrive" fx:id="lblArrive" layoutX="30.0" layoutY="260.0" text="Arrive:" />
+      <TextField id="txtArrive" fx:id="txtArrive" layoutX="113.0" layoutY="256.0" prefHeight="25.0" prefWidth="79.0" />
+      <Button id="BClose" fx:id="Bclose" layoutX="114.0" layoutY="352.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="79.0" text="Close" />
+      <Label id="lblRes" layoutX="112.0" layoutY="14.0" text="Resrvation" />
+   </children>
+</AnchorPane>
